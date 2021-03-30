@@ -1,4 +1,6 @@
-package com.schooldesign;
+package Services;
+
+import model.Person;
 
 public interface TeacherTask {
 

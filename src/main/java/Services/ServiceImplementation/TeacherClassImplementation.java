@@ -1,4 +1,7 @@
-package com.schooldesign;
+package Services.ServiceImplementation;
+
+import Services.TeacherTask;
+import model.Person;
 
 public class TeacherClassImplementation implements TeacherTask {
 

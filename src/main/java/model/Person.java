@@ -1,4 +1,4 @@
-package com.schooldesign;
+package model;
 
 public class Person {
     private String name;

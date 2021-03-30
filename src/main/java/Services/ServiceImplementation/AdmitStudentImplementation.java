@@ -1,4 +1,7 @@
-package com.schooldesign;
+package Services.ServiceImplementation;
+
+import Services.AdmitStudent;
+import model.Person;
 
 public class AdmitStudentImplementation implements AdmitStudent {
     Person principal = new Person();

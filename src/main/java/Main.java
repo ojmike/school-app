@@ -1,6 +1,9 @@
-package com.schooldesign;
+import Services.ServiceImplementation.AdmitStudentImplementation;
+import model.Person;
+import Services.ServiceImplementation.StudentTakesCourseImplementation;
+import Services.ServiceImplementation.TeacherClassImplementation;
 
-public class Main extends Person{
+public class Main extends Person {
 
     public Main(String name, int age, String level, String maritalStatus, double salary) {
         super(name, age, level, maritalStatus, salary);
@@ -17,6 +20,9 @@ public class Main extends Person{
         //teacherClassImplementation.teach(principal);
         AdmitStudentImplementation admitStudentImplementation = new AdmitStudentImplementation();
        admitStudentImplementation.admitStudent(teacher, student );
+
+       StudentTakesCourseImplementation studentTakesCourseImplementation = new StudentTakesCourseImplementation();
+       studentTakesCourseImplementation.studentTakesCourse(student, teacher);
 
     }
 
